@@ -5,7 +5,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* regole header */
+/* ------------------------------ */
+
+/* Regole per l'header */
 
 header {
     background-color: #ff6900;
@@ -18,7 +20,7 @@ header {
     z-index: 1;
 }
 
-/* regole div interno header */
+/* Regole per il contenitore interno dell'HEADER */
 
 .link-logo-items {
     width: 880px;
@@ -26,32 +28,42 @@ header {
     align-items: center;
     margin: 0 auto;
 }
-.link-logo-items > div {
+
+.link-logo-items>div {
     width: 300px;
 }
+
 a {
     text-decoration: none;
     color: white;
     margin-right: 10px;
 }
+
 .logo {
     text-align: center;
 }
+
 .logo img {
     width: 100px;
     padding-top: 4px;
 }
+
 .items {
     text-align: end;
 }
-.user, .heart, .shop {
+
+.user,
+.heart,
+.shop {
     color: white;
     margin-right: 10px;
     cursor: pointer;
 }
 
+/* ------------------------------ */
 
-/* main */
+/* Regole per il contenitore principale MAIN */
+
 main {
     padding-top: 60px;
 }
@@ -64,33 +76,39 @@ main .container-main {
     display: flex;
     flex-wrap: wrap;
 }
+
 .card {
     min-height: 460px;
     width: 300px;
     padding: 20px;
     text-align: center;
 }
- img {
+
+img {
     width: 270px;
     text-align: center;
 }
+
 .txt-image {
     text-align: left;
     margin-left: 2px;
 }
+
 h6 {
     color: red;
 }
+
 h6 span {
     color: black;
     text-decoration: line-through;
 }
 
+/* Regole per la posizione degli elementi */
 
-/* regole position */
-.card{
+.card {
     position: relative;
 }
+
 .special-heart {
     position: absolute;
     top: 32px;
@@ -98,6 +116,7 @@ h6 span {
     padding: 8px;
     background-color: white;
 }
+
 .special-saldo {
     position: absolute;
     top: 75%;
@@ -106,6 +125,7 @@ h6 span {
     padding: 2px 4px;
     color: white;
 }
+
 .sostenibilità {
     position: absolute;
     top: 75%;
@@ -114,16 +134,20 @@ h6 span {
     padding: 2px 4px;
     color: white;
 }
+
 .sostenibilità-6 {
     background-color: green;
 }
 
+/* ------------------------------ */
 
-/* footer */
+/* Regole per il FOOTER */
+
 footer {
     background-color: black;
     min-height: 90px;
 }
+
 .container-footer {
     width: 870px;
     margin: 0 auto;
@@ -131,21 +155,27 @@ footer {
     padding-top: 20px;
     justify-content: space-between;
 }
+
 .container-footer div {
     color: white;
 }
+
 .booleando-srl span {
     font-size: 12px;
 }
+
 h4 {
     margin-bottom: 8px;
 }
+
 .last-item {
     margin-right: 14px;
 }
 
+/* ------------------------------ */
 
 /* regole hover */
+
 .img-hoverata {
     display: none;
     position: absolute;
@@ -157,5 +187,5 @@ h4 {
     display: block;
     margin-top: 20px;
     margin-left: 20px;
+    cursor: pointer;
 }
-
